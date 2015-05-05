@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" description="Home" url="~/.aspx" >
+    <siteMapNode title="Log" description="Авторизация" url="~/Login.aspx">
+      <siteMapNode title="Register" description="Регистрация" url="~/Register.aspx" />
+      <siteMapNode title="Login" description="Вход" url="~/Login.aspx" />     
+    </siteMapNode>
+    <siteMapNode title="Main" description="Главная" url="~/.aspx">
+      <siteMapNode title="InfoZakaz" description="Информация о заказах" url="~/AboutZakaz.aspx">
+        <siteMapNode title="Zakaz" description="Заказ" url="~/AboutZakaz.aspx" />
+        <siteMapNode title="Zakazchik" description="Заказчик" url="~/AboutZakazchik.aspx" />
+        <siteMapNode title="SpisokZakaza" description="Список заказа" url="~/AboutSpisokZakaza.aspx" />
+      </siteMapNode>
+      <siteMapNode title="InfoBluda" description="Информация о блюдах" url="~/AboutMenu.aspx">
+        <siteMapNode title="Menu" description="Меню" url="~/AboutMenu.aspx" />
+        <siteMapNode title="SostavBluda" description="Состав блюда" url="~/AboutSostavBluda.aspx" />
+        <siteMapNode title="Ingredienty" description="Ингредиенты" url="~/AboutIngridienty.aspx" />
+      </siteMapNode>
+      <siteMapNode title="InfoRabotniki" description="Информация о работниках" url="~/AboutSotrudniki.aspx">
+        <siteMapNode title="Sotrudniki" description="Сотрудники" url="~/AboutSotrudniki.aspx" />
+        <siteMapNode title="PoclSpisok" description="Послужной список" url="~/AboutPoclSpisok.aspx" />
+        <siteMapNode title="Dolzhnosti" description="Должности" url="~/AboutDolzhnosti.aspx" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
