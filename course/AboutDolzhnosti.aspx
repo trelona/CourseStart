@@ -3,7 +3,7 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <asp:Image ID="ImageDolzhnosti" runat="server" BorderStyle="Double" EnableTheming="True" ForeColor="Black" Height="200px" ImageUrl="http://www.kasparov.ru/content/materials/201305/519B1FFB7F9EE.jpg" Width="200px" />
     &nbsp;&nbsp;&nbsp;
-    <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Text="Информация о должностях, имеющихся в ресторане"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Text="Информацция о должностях, имеющихся в ресторане"></asp:Label>
     <br />
     <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="KodDolzhnosti" DataSourceID="SqlDataSource3" Height="50px" Width="280px">
         <Fields>
